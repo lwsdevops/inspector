@@ -1,0 +1,17 @@
+{
+  "name"    : "inspector",
+  "author"  : "Lance Smith",
+  "email"   : "smith.w.lance@gmail.com",
+  "url"     : "github.com/lwsdevops/inspector",
+  "description" : "simple, stateless framework to test network endpoints",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/lwsdevops/inspector.git"
+  },
+
+  "dependencies" : {},
+  "scripts" : {
+    "start" : "nodejs server/start.js",
+    "test" : "mocha"
+  }
+}
