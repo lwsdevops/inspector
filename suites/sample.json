@@ -1,0 +1,15 @@
+{
+  "checks" : [
+    {
+      "type" : "http",
+      "mehtod" : "GET",
+      "url" : "https://www.google.com",
+      "emmitters" : [
+        {
+          "type" : "email",
+          "to" : [ "smith.w.lance@gmail.com" ]
+        }
+      ]
+    }
+  ]
+}
